@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: brown;
+}
+
+.todo-app{
+  margin: 150px auto;
+  width: 60%;
+}
+
+.write-task{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  height: 75px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.text-area{
+  width: 65%;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 1.5rem;
+}
+
+.text-area:focus{
+  outline-color: green;
+}
+
+.submit-btn{
+  height: 40px;
+  border-radius: 5px;
+  width: 20%;
+  border: 1px solid green;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+  transition: .2s linear;
+}
+
+.submit-btn:hover{
+  background-color: green;
+  color: white;
+}
+
+.task{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+  margin: 10px auto 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.actual-task{
+  font-size: 1.7rem;
+}
+
+.buttons{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.done{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40%;
+  border: 2px solid #fff100;
+  border-radius: 5px;
+  color: #fff100;
+  transition: .2s linear;
+}
+
+.done:hover{
+  background-color: #fff100;
+  color: white;
+}
+
+.delete{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40%;
+  border: 2px solid red;
+  border-radius: 5px;
+  color: red;
+  transition: .2s linear;
+}
+
+.delete:hover{
+  background-color: red;
+  color: white;
+}
